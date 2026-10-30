@@ -1,0 +1,14 @@
+name: EndResources
+version: 1.0.0
+main: dev.endres.EndResources
+api-version: '1.21'
+description: Сбор общих ресурсов на спавне для открытия Края
+commands:
+  endres:
+    description: Управление сбором ресурсов
+    usage: /endres <start|stop|reset|setstorage|status|reload>
+    permission: endres.admin
+permissions:
+  endres.admin:
+    description: Управление плагином
+    default: op
